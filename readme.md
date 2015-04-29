@@ -12,7 +12,7 @@ Trever is a self-hosted, web-based, automated snapshot manager for the Amazon We
 
 Trever tries to make it easy to manage snapshots for one or more EC2 accounts. 
 
-Trevor is built on [Laravel 5](https://github.com/laravel/laravel) and integrates various packages like [AWS SDK for PHP](https://github.com/aws/aws-sdk-php-laravel).
+Trever is built on [Laravel 5](https://github.com/laravel/laravel) and integrates various packages like [AWS SDK for PHP](https://github.com/aws/aws-sdk-php-laravel).
 
 ### Installation
 ----
