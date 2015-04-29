@@ -2,7 +2,8 @@
 
 Trever is a self-hosted, web-based, automated snapshot manager for the Amazon Web Services EC2 platform.
 
-What can Trever do automatically?
+---
+**What can Trever do automatically?**
 
 - Create new snapshots of EC2 volumes
 - Delete old snapshots
@@ -13,18 +14,8 @@ Trever tries to make it easy to manage snapshots for one or more EC2 accounts.
 
 Trevor is built on [Laravel 5](https://github.com/laravel/laravel) and integrates various packages like [AWS SDK for PHP](https://github.com/aws/aws-sdk-php-laravel).
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
 ### Installation
-
+----
 You will need [Composer](https://getcomposer.org/) installed to properly install Trever.
 
 From the base directory of Trever, run:
@@ -34,6 +25,7 @@ $ composer install
 ### 
 
 ### Projects & Packages
+----
 Trever is built using a number of open-source projects:
 
 * [Laravel 5](https://github.com/laravel/laravel)
@@ -43,8 +35,7 @@ Trever is currently extended with the following packages
 
 * [AWS SDK for PHP for Laravel 5](https://github.com/aws/aws-sdk-php-laravel)
 
-License
+### License
 ----
 
 [GPLv3 License](http://www.gnu.org/licenses/gpl-3.0.html)
-
