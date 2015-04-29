@@ -145,6 +145,10 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		/*
+		 * Amazon Web Service Provider
+		 */
+         'Aws\Laravel\AwsServiceProvider',
 	],
 
 	/*
@@ -163,6 +167,7 @@ return [
 		'App'       => 'Illuminate\Support\Facades\App',
 		'Artisan'   => 'Illuminate\Support\Facades\Artisan',
 		'Auth'      => 'Illuminate\Support\Facades\Auth',
+		'AWS'       => 'Aws\Laravel\AwsFacade',
 		'Blade'     => 'Illuminate\Support\Facades\Blade',
 		'Bus'       => 'Illuminate\Support\Facades\Bus',
 		'Cache'     => 'Illuminate\Support\Facades\Cache',
